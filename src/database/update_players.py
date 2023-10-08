@@ -8,7 +8,7 @@ db = client["test"]  # Replace with your DB name
 collection = db["players"]
 
 #load player files from RIOT
-file = open("../esports-data/players.json", "r", encoding="utf-8")
+file = open("../../esports-data/players.json", "r", encoding="utf-8")
 player_data = json.load(file)
 
 # Check for empty values and throw errors
